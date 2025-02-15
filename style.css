@@ -1,0 +1,68 @@
+
+#amount{
+    height:30px;
+    padding: 5px;
+    width:96%;
+
+}
+
+
+
+body{
+    margin:0px;
+    padding:0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(232, 227, 181);
+    min-height: 100vh;
+}
+
+.container{
+
+
+    background-color: white;
+    border:1px solid rgb(38, 35, 35);
+    border-radius:3%;
+    margin:25px;
+    padding:25px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    
+    min-height: 50vh;
+    width:55vh;
+   
+    
+}
+
+
+.select-container img{
+    max-width: 20px;
+    
+}
+#from,#to{
+    border:1px solid white;
+    
+}
+.select-container{
+    display:flex;
+    border:1px solid rgb(14, 13, 13);
+    border-radius: 3%;
+}
+.dropdown{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+form button{
+    background-color: rgb(148, 22, 148);
+    color:azure;
+    cursor: pointer;
+    border-radius: 3%;
+    height:40px;
+    padding:5px;
+    width:97%;
+
+
+
+}
